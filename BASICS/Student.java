@@ -20,11 +20,16 @@ public class Student {
         System.out.println("Name :"+ name +" "+" rollno : "+rollno+ " "+ "marks : "+ marks);
 
     }
+    
     public static void main(String[] args) {
         Student s = new Student();
         s.display();
         Student s1 = new Student("Basaveshwar",111,100f);
         s1.display();
+        Student s2 = new Student ("Shivayogi",111,100f);
+        s2.display();
+        
+       
     
     }
     
