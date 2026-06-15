@@ -1,3 +1,5 @@
+
+//ARITHMETIC EXCEPTION
 package ExceptionHandling;
 
 public class A {
@@ -5,14 +7,16 @@ public class A {
         int a=10,b=0,c;
        
      try {
+            
              c=a/b;
-            System.out.println(c);
+             System.out.println(c);
+        
             
         } catch (ArithmeticException e) {
             System.out.println("Cant divide by zero");
         }
          
-        System.out.println("Hi");
+        System.out.println("hi");
        
        
     }

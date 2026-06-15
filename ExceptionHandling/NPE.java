@@ -1,8 +1,10 @@
-package ExceptionHandling;
 
+// NULL POIUNTER EXCEPTION
+package ExceptionHandling;
+ 
 public class NPE {
     public static void main(String[] args) {
-    String str = null;
+    String str = null ;
     try {
      System.out.println(str.toUpperCase());
         
